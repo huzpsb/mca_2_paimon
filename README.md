@@ -1,5 +1,9 @@
 # 📘 Manual for MCA to Paimon Region Converter
 
+0.1x as big as mca, 10x as fast as linear.  
+
+Get paimon with [CrazyLeaf](https://builtbybit.com/resources/crazyleaf-modern-spigot-fork.64180/)!
+
 ## 📁 Project Directory Structure
 
 ```
@@ -83,7 +87,7 @@ The `.paimon` format is specifically engineered for both **space efficiency** an
 Paimon region files are on average:
 
 $$
-\textbf{Only 10\% the size of the original } .mca \textbf{ files}
+\textbf{Only 10\\% the size of the original } .mca \textbf{ files}
 $$
 
 This translates into:
@@ -106,4 +110,5 @@ $$
 \textbf{10× the speed} \textbf{ of a naive single-threaded (linear) implementation}
 $$
 
-Benchmarked on typical Minecraft region sets, this means converting 500+ regions in a matter of minutes instead of hours — **without sacrificing determinism or output fidelity**.
+Benchmarked on typical Minecraft region sets, this means converting 500+ regions in a matter of minutes instead of hours — **without sacrificing determinism or output fidelity**.  
+Linear doesn't have performance in mind, we do :3
