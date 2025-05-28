@@ -163,8 +163,9 @@ while True:
         if failed_attempts > 10:
             print("Too many failed attempts, exiting.")
             break
-
         continue
+
+    failed_attempts = 0
 
     if not create_file_cas(p_lock):
         print("Skipping %s, already locked." % p_dest)
