@@ -111,4 +111,4 @@ $$
 $$
 
 Benchmarked on typical Minecraft region sets, this means converting 500+ regions in a matter of minutes instead of hours — **without sacrificing determinism or output fidelity**.  
-[Linear](https://github.com/xymb-endcrystalme/LinearRegionFileFormatTools) doesn't have performance in mind, we do :3
+
